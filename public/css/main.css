@@ -1,0 +1,20 @@
+.ofertas{
+    font-family: var(--tipografia);
+    font-size: var(--descuentos-descripciones);
+}
+.precio{
+    font-family: var(--tipografia);
+    font-size: var(--precios);
+}
+.descripcion{
+    font-family: var(--tipografia);
+    font-size: var(--descuentos-descripciones);
+}
+
+.tituloMain {
+    font-family: var(--tipografia);
+    font-size: var(--titulares);
+}
+.fondo {
+    background-color: var(--gris-claro);
+}

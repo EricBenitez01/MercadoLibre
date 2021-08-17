@@ -1,0 +1,19 @@
+.alineado{
+    font-family: var(--tipografia);
+    text-align: center;
+    /* font-size: var(--cuerpo); */
+}
+.copyright{
+    font-family: var(--tipografia);
+    text-align: left;
+    font-size: var(--cuerpo);
+}
+.titulo {
+    font-family: var(--tipografia);
+    font-size: var(--titulares);
+}
+.icon {
+    color: var(--color-celeste);
+    font-size: 2em;
+    text-align: center;
+}
