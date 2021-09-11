@@ -1,7 +1,6 @@
 {
   "name": "mercado",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricBenitez01/MercadoLibre.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EricBenitez01/MercadoLibre/issues"
+  },
+  "homepage": "https://github.com/EricBenitez01/MercadoLibre#readme",
+  "description": ""
 }

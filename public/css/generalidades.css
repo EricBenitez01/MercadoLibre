@@ -11,3 +11,13 @@
     --precios: 18px;
     --descuentos-descripciones: 16px;
 }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+.body{
+    font-family: var(--tipografia);
+}

@@ -1,25 +1,48 @@
 .header{
     background-color: var(--color-amarillo);
-    
+    width: 100%;
 }
 .header div{
+    text-align: center;
+    padding: 10px 0;
+}
+.header div i{
     background-color: var(--color-celeste);
     color: white;
     padding: 10px;
-    display: inline-block;
     border-radius: 5px;
-    margin-left: 50%;
 }
+.header ul li {
+     margin: 5px;
+     display: none;
+}
+
 .header ul {
     font-weight: bold;
+    
 }
 .lupa{
     background-color: var(--gris-claro);
     border-radius: 2px;
     border: solid 1px black;
-    margin-top: 20px;
+ 
     
 }
 .logo {
+    display: flex;
+    flex-wrap: wrap;
     width: 25%;
+    padding: 10px;
+}
+.buscador {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media(min-width: 361px){ 
+.header ul li{
+    display: block;
+}
+.header div i{
+    display: none;
+}
 }
