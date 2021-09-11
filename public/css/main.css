@@ -1,7 +1,12 @@
+/* al body hay que darle un backgroud color gris claro,  y a la descripcionn del producto (h4) en el article hay que darle 20px de padding top */
 main {
     width: 90%;
     margin: 0 auto;
     background-color: var(--gris-claro);
+}
+main section article {
+    background-color: white;
+    margin: 10px 0;
 }
 main section article img{
     display: block;
@@ -14,12 +19,13 @@ main section article .oferta{
 main section article .precio{
     font-family: var(--tipografia);
     font-size: var(--precios);
+    
 }
-main section article .descripcion{
+main section article .descripcion {
     font-family: var(--tipografia);
     font-size: var(--descuentos-descripciones);
+    padding-top: 20px;
 }
-
 main section article .tituloMain {
     font-family: var(--tipografia);
     font-size: var(--titulares);
@@ -44,7 +50,7 @@ main section article i.fas {
   }
   main section article .contenedor {
     position: relative;
-    padding: 15px;
+    padding: 20px;
     border-top: 1px solid var(--Gris-claro);
   } 
   @media(min-width: 361px){
