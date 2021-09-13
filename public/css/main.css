@@ -4,9 +4,16 @@ main {
     margin: 0 auto;
     background-color: var(--gris-claro);
 }
+main section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 main section article {
     background-color: white;
     margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 main section article img{
     display: block;
@@ -15,11 +22,16 @@ main section article img{
 main section article .oferta{
     font-family: var(--tipografia);
     font-size: var(--descuentos-descripciones);
+    color: var(--Ver);
+    padding-top: 1px;
+    display: flex;
+    flex-grow:  .7%;
 }
 main section article .precio{
     font-family: var(--tipografia);
     font-size: var(--precios);
-    
+    display: flex;
+    flex-grow: .3%;
 }
 main section article .descripcion {
     font-family: var(--tipografia);
@@ -52,18 +64,33 @@ main section article i.fas {
     position: relative;
     padding: 20px;
     border-top: 1px solid var(--Gris-claro);
+    display: flex;
+    flex-wrap: wrap;
   } 
+ 
   @media(min-width: 361px){
     main .banner {
         display: block;
     }
+    
     main section article .contenedor h4 {
         display: block;
       }
     main section article {
         box-shadow: 0px 0px 10px rgb(100,100,100);
+        width:45%;
+    }
+    main section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    @media (min-width:769px) {
+        main section article{
+            width: 22%;
+        }
     }
 }
-
-
+    
   
