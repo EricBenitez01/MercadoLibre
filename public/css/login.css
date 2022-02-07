@@ -1,0 +1,72 @@
+main.login{
+    margin: auto;
+    background-color: rgb(168, 168, 168);
+    border-radius: 25px;
+    padding: 28px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 80px;
+ }
+ 
+ 
+ main.login form.loginForm{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+ }
+ 
+ main.login form.loginForm label{
+     display: none;
+ }
+ 
+ main.login form.loginForm input{
+     margin: 10px 0;
+     height: 22px;
+     border: none;
+     border-radius: 10px ;
+ }
+ 
+ .roberto{
+     background: var(--celeste);
+     border: none;
+     border-radius: 10px;
+     height: 26px;
+     color: white
+ }
+ 
+ @media (min-width:430px){
+    .login{
+         display: flex;
+         justify-content: center;
+         flex-wrap: nowrap;
+     }
+ 
+     main.login form.loginForm input.ButtonLogin{
+         background: var(--celeste);
+         border: none;
+         border-radius: 10px;
+         height: 32px;
+         color: white
+     }
+     
+      
+ 
+ }
+ 
+ 
+ @media (min-width:769px){
+     main.login form.loginForm input{
+         margin: 10px 0;
+         height: 36px;
+         border: none;
+         border-radius: 20px ;
+     }
+     
+ 
+     
+      
+ 
+ }

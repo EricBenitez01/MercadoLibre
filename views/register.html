@@ -43,96 +43,63 @@ rel="stylesheet" />
 
     </header>
 
-    
-<main>
-    <h3 class="tituloMain">Sección de Ofertas</h3>
-    <section>
-        
-   
-   <article>
-       
-        <img src="/img/img-cafetera-moulinex.jpg" alt="">
-        <div class="contenedor">
-        <p><i class="fas fa-truck"></i></p>
-        <p class="precio"> $6.770 </p>
-        <p class="oferta">40% OFF</p>    
-        <h4 class="descripcion">Cafetera Moulinex</h4>  
-       </div>
-   </article> 
-   <article>
-        <img src="/img/img-macbook-pro-2019.jpg" alt="">
-        <div class="contenedor">
-        <p><i class="fas fa-truck"></i></p>
-        <p class="precio"> $230.000 </p>
-        <p class="oferta">20% off</p>    
-        <h4 class="descripcion">MacBook Pro 2019</h4> 
-        </div>
-   </article>
-   <article>
-    <img src="/img/img-samsung-galaxy-s10.jpg" alt="">
-        <div class="contenedor">
-        <p><i class="fas fa-truck"></i></p>
-        <p class="precio"> $70.500 </p>
-        <p class="oferta">10% off</p>    
-        <h4 class="descripcion">Samsung Galaxy S10</h4> 
-        </div>
-   </article>
-   <article>
-    <img src="/img/img-tv-samsung-smart.jpg" alt=""> 
-        <div class="contenedor">
-        <p><i class="fas fa-truck"></i></p>
-        <p class="precio"> $23.200 </p>
-        <p class="oferta">5% off</p>    
-        <h4 class="descripcion">SmartTv Samsung 43"</h4> 
-        </div>
-   </article>
-   </section>
+    <main class="registerMain">
+        <form class="registerForm" action="/">
+            <label class="Rlabel"  for="Nombre">Nombre y Apellido</label>
+            <input class="Rinput"type="text" placeholder="Ej: Roberto Sanchez" minlength="1" name="Nombre">
 
+            <label class="Rlabel"  for="Usuario">Nombre de usuario</label>
+            <input class="Rinput" type="text" minlength="4" maxlength="10" placeholder="Ej: RobertoSa" name="Usuario">
 
+            <label class="Rlabel"  for="Fecha">Fecha de nacimiento</label>
+            <input class="Rinput" type="date" name="Fecha">
 
-   <h3 class="tituloMain">Sección de Ofertas</h3>
-<section>
+            <label class="Rlabel"  for="Domicilio">Domicilio</label>
+            <input class="Rinput" type="text" placeholder="Avenida Brasil" name="Domicilio">
+            
+            <label  class="Rlabel" for="perfil">Elige perfil de usuario</label>
+            <select   class="Rinput" name="perfil" >
+                    <option class="Rinput" value="Comprar">Comprar</option>
+                    <option class="Rinput" value="Vender">Vender</option>
+            </select>
+            
+           
 
+            <div class="interes">
+                <h2>Categorias de interes</h2> <br>
+            
+                <label class="Rlabel"  for="Interes1">Electro</label>
+                <input class="Rinput" type="checkbox" id="Interes1" name="interes">
+           
+                <label class="Rlabel"  for="Interes2">Moda</label>
+                <input class="Rinput" type="checkbox" id="Interes2" name="interes">
+           
+                <label class="Rlabel"  for="Interes3">Hogar</label>
+                <input class="Rinput" type="checkbox" id="Interes3" name="interes">
+          
+                <label class="Rlabel"  for="Interes4">Jugeteria</label>
+                <input class="Rinput" type="checkbox" id="Interes4" name="interes">
+            
+                <label class="Rlabel"  for="Interes5">Vida Sana</label>
+                <input class="Rinput" type="checkbox" id="Interes5" name="interes">
+         
+            </div>
 
-<article>
-    <img src="/img/img-cafetera-moulinex.jpg" alt="">
-    <div class="contenedor">
-     <p><i class="fas fa-truck"></i></p>
-     <p class="precio"> $6.770 </p>
-     <p class="oferta">40% OFF</p>    
-     <h4 class="descripcion">Cafetera Moulinex</h4>  
-    </div>
-</article> 
-<article>
-    <img src="/img/img-macbook-pro-2019.jpg" alt="">
-    <div class="contenedor">
-     <p><i class="fas fa-truck"></i></p>
-     <p class="precio"> $230.000 </p>
-     <p class="oferta">20% off</p>    
-     <h4 class="descripcion">MacBook Pro 2019</h4> 
-    </div>
-</article>
-<article>
-    <img src="/img/img-samsung-galaxy-s10.jpg" alt="">
-    <div class="contenedor">
-     <p><i class="fas fa-truck"></i></p>
-     <p class="precio"> $70.500 </p>
-     <p class="oferta">10% off</p>    
-     <h4 class="descripcion">Samsung Galaxy S10</h4> 
-    </div>
-</article>
-<article>
-    <img src="/img/img-tv-samsung-smart.jpg" alt="">
-    <div class="contenedor">
-     <p><i class="fas fa-truck"></i></p>
-     <p class="precio"> $23.200 </p>
-     <p class="oferta">5% off</p>    
-     <h4 class="descripcion">SmartTv Samsung 43"</h4> 
-    </div>
-</article>
-</section>
+            <label class="Rlabel"  for="foto">Elige foto de Usuario:</label>
+            <input class="Rinput" type="file" id="foto" accept=".jpg" name="foto">
 
-</main>
+            <label class="Rlabel"  for="password">Contraseña:</label>
+            <input class="Rinput" type="password" minlength="4" maxlength="8" id="password" name="password"><br>
+
+            <label class="Rlabel"  for="confirm">Confirma Contraseña:</label>
+            <input class="Rinput" type="password" minlength="4" maxlength="8" id="confirm" name="confirm"><br><br><br><br>
+
+            <input class="Rinput" class="botonSend" type="submit" value="Enviar"><br>
+            <input class="botonReset" type="reset" value= "Borrar">
+
+        </form>
+
+    </main>
 
 
     <footer class="alineado">
@@ -164,4 +131,3 @@ rel="stylesheet" />
     </footer>
 </body>
 </html>
-<!-- value= <%= locals.old && old.Nombre ? old.Nombre : ""  %> REGISTER -->
