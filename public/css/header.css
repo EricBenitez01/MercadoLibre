@@ -12,13 +12,29 @@
     padding: 10px;
     border-radius: 5px;
 }
+.nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-decoration: none;
+}
+*{
+    text-decoration: none;
+}
 .header ul li {
      margin: 5px;
      display: none;
 }
-
+.dinero{
+    display: flex;
+    justify-content: end;
+    margin: 13px;
+    width: 44%;
+}
 .header ul {
     font-weight: bold;
+    list-style: none;
+    display: flex;
     
 }
 .lupa{
@@ -28,19 +44,27 @@
  
     
 }
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
 .logo {
     display: flex;
     flex-wrap: wrap;
-    width: 25%;
+    width: 30%;
     padding: 10px;
 }
 .buscador {
     display: flex;
     flex-wrap: wrap;
 }
+.search{
+    display:flex
+   
+}
 @media(min-width: 361px){ 
 .header ul li{
-    display: block;
+    display: flex;
 }
 .header div i{
     display: none;
